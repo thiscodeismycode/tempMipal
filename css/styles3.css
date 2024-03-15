@@ -1,4 +1,6 @@
 body {
+    background-color: white !important;
+    color: black !important;
     margin: 0;
     word-break: keep-all;
     font-family: "Playfair Display", serif !important;
@@ -15,10 +17,7 @@ a:hover {
 }
 
 .main-logo {
-    height: 35vh;
-}
-.main-content {
-    height: 65vh;
+    height: 100vh;
 }
 
 .logo {
@@ -42,6 +41,10 @@ a:hover {
     }
     .main-content {
         height: 80vh;
+    }
+    .cursor{
+        height: 10rem;
+        width: 10rem;
     }
 }
 
