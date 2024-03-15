@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    word-break: keep-all;
+    font-family: "Playfair Display", serif !important;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+a {
+    color: black !important;
+    font-size: 1.5rem;
+    text-decoration: none !important;
+}
+a:hover {
+    color: #bdbdbd !important;
+}
+
+.main-logo {
+    height: 35vh;
+}
+.main-content {
+    height: 65vh;
+}
+
+.logo {
+    height: 6vh;
+}
+.title{
+    font-size: 3.5rem;
+}
+
+
+@media(max-width:576px){
+    a {
+        font-size: 1.5rem;
+    }
+    .title{
+        font-size: 2.5rem;
+    }
+    .main-logo {
+        height: 20vh;
+    }
+    .main-content {
+        height: 80vh;
+    }
+}
+
